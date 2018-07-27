@@ -12,8 +12,8 @@
       margin: auto;
     }
   </style>
-  <script type="text/javascript" src="https://cdn.bootcss.com/echarts/4.1.0/echarts.js"></script>
-  <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/china.js"></script>
+  <script type="text/javascript" src="./js/echarts.min.js"></script>
+  <script type="text/javascript" src="./js/map/china.js"></script>
 </head>
 
 <body>
@@ -198,7 +198,7 @@
     // 展示对应的省
     function showProvince(pName, Chinese_) {
       //这写省份的js都是通过在线构建工具生成的，保存在本地，需要时加载使用即可，最好不要一开始全部直接引入。 
-      loadBdScript('$' + pName + 'JS', 'http://echarts.baidu.com/gallery/vendors/echarts/map/js/province/' + pName + '.js', function () {
+      loadBdScript('$' + pName + 'JS', './js/map/province/' + pName + '.js', function () {
         initEcharts(Chinese_);
       });
     }
