@@ -6,6 +6,6 @@
 
 - 操作提示，点击省级能进入当前省的省级地图，双击省级地图可以返回全国地图，或者点击右上角按钮直接返回全国地图。
 
-- echarts 地图数据（官方）在线地址为：<br/>1. 全国：https://echarts.baidu.com/gallery/vendors/echarts/map/js/china.js<br/>2. 省级：https://echarts.baidu.com/gallery/vendors/echarts/map/js/province/(省份拼音)
+- echarts 地图数据（官方）在线地址为：<br/>1. 全国：http://echarts.baidu.com/gallery/vendors/echarts/map/js/china.js<br/>2. 省级：http://echarts.baidu.com/gallery/vendors/echarts/map/js/province/(省份拼音)
 
 - 在线地址：https://xiaofan9.github.io/echarts-china-map/
