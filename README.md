@@ -1,5 +1,3 @@
-# echarts 中国地图版
-
 ## 版本
 
 ### v1（index_v1.html）
