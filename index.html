@@ -36,7 +36,7 @@
 
       function getAreaMap(areaCode, isFull) {
         return axios
-          .get("https://geo.datav.aliyun.com/areas_v2/bound/" + areaCode + (isFull ? "_full" : "") + '.json',)
+          .get("http://42.192.232.58:3000/proxy/areas_v2/bound/" + areaCode + (isFull ? "_full" : "") + '.json?proxy_key=7f297416175d8b022098ded9548eb276',)
           .then(function (res) {
             return Promise.resolve(res.data);
           });
