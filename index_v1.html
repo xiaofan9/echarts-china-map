@@ -21,7 +21,7 @@
   </head>
 
   <body>
-    <button id="back">返回全国</button>
+    <button id="back" style="display: none">返回全国</button>
     <div id="china-map"></div>
 
     <script>
@@ -104,6 +104,8 @@
 
       oBack.onclick = function () {
         loadMap("china", "中国");
+
+        oBack.style.setProperty('display', 'none');
       };
 
       loadMap("china", "中国");
@@ -139,7 +141,8 @@
           ],
         };
 
-        console.log(option)
+        // 清理画布
+        myChart.clear();
 
         myChart.setOption(option);
 
@@ -157,6 +160,8 @@
                 break;
               }
             }
+
+            oBack.style.setProperty('display', 'block');
           });
         } else {
           // 省份，添加双击 回退到全国

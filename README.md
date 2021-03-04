@@ -33,6 +33,4 @@
 
 ## 预览地址
 
-https://xiaofan9.github.io/echarts-china-map/index_v1.html 
-
-v2 版本因为访问限制，只能在本地查看，见谅！
+[v1 版本](https://xiaofan9.github.io/echarts-china-map/index_v1.html)、[v2 版本](http://jsrun.net/DMaKp)
